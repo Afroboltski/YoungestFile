@@ -8,13 +8,11 @@ Compiled & tested in x86-64 Windows 10. In Visual Studio, the program cam be com
 You can add the directory of the compiled binary to your PATH variable to make the usage work as shown below.
 
 # Usage:
-```batch
         yf.exe -help
                 Displayes this help message.
         yf.exe [DIRECTORY NAME] [MAX NUMBER OF FILES TO LIST]
                [DIRECTORY NAME] is the directory name to search. if ommitted, the current working directory is used.
                [MAX NUMBER OF FILES TO LIST] limits the output in the console window to the specified number of files. If ommitted, all of them are displayed.
-```
 
 Example:
 ```batch
