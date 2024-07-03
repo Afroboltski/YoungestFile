@@ -15,7 +15,6 @@ You can add the directory of the compiled binary to your PATH variable to make t
                [MAX NUMBER OF FILES TO LIST] limits the output in the console window to the specified number of files. If ommitted, all of them are displayed.
 
 Example:
-```batch
 C:\temp>yf 7
 Most recently modified files (recursively searched) in "C:\temp":
 FILE NAME                      DATE/TIME MODIFIED       PATH TO FILE (Relative to "C:\temp\")
@@ -29,9 +28,8 @@ Links.txt                      1/05/2024 1:45 pm        .
 Project_Archive.zip            9/03/2024 1:24 am        temp_subfolder\sub_sub_folder
 
 C:\temp>
-```
 
-```batch
+```
 C:\temp>yf .\temp_subfolder
 Most recently modified files (recursively searched) in ".\temp_subfolder":
 FILE NAME             DATE/TIME MODIFIED        PATH TO FILE (Relative to ".\temp_subfolder\")
